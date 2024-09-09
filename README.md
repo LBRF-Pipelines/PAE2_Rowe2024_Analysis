@@ -7,12 +7,11 @@ To install the R packages required for running this analysis pipeline, run the f
 
 ```r
 install.packages(
-c("data.table", "dplyr", "tidytable", "ggplot2", "afex", "emmeans", "performance", "car")
-)
+c("data.table", "dplyr", "tidytable", "ggplot2", "afex", "emmeans", "performance", "car"))
 ```
 
 ## Running the pipeline
-First, to run the pipeline, you will need to place the contents of the ```Data folder``` from the project's OSF repository (found here) in the pipeline's ```_Data folder```. 
+First, to run the pipeline, you will need to place the contents of the ```Data folder``` from the project's OSF repository (found [here](https://osf.io/za23p/?view_only=3737eb74368a4f6ebdf2984364640b42)) in the pipeline's ```_Data folder```. 
 
 Then, set the working directory in R to the ```PAE2_Rowe2024_Analysis folder``` and run the following source commands in sequence. 
 
